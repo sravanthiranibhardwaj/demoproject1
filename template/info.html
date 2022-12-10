@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+     <title>Experiment 1</title>
+</head>
+<body>
+     {% for item in all %}
+     Name:{{item.name}}<br>
+     Email:{{item.email}}<br>
+     Subject:{{item.subject}}<br>
+     Message:{{item.message}}<br>
+
+     <hr>
+     {% endfor %}
+</body>
+</html>
